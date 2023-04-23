@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SEPARADOR DE DADOS</title>
+        <!-- CSS-->
+        <link rel="stylesheet" href="style.css"/>   
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <!--Receptor-->
+                <div class="receptor">
+                    <label for="digitado">Digite para separar:</label>
+                    <input type="text" name="valorDigitado" class="valorDigitado" id="valorDigitado">
+                    <button type="button" class="styleButton" onclick="separar();" >SEPARAR</button>
+                    <button type="button" class="styleButton" onclick="limpar();" >LIMPAR</button>
+                </div>
+
+                
+                <!--Resultados-->
+                <div class="resultados">
+                    <label>Números: <input type="text" id="tela-numeros"></label>
+                    
+                    <label>Palavras: <input type="text" id="tela-palavras"></label>
+                </div>
+            </form>
+        </div>
+
+        <!--JavaScript-->
+        <script src="script.js"></script>
+    </body>
+</html>
